@@ -1,0 +1,13 @@
+prefix=c:/Users/mario/Documents/GitHub/Proyectos-Python/.conda/Library
+exec_prefix=c:/Users/mario/Documents/GitHub/Proyectos-Python/.conda/Library
+libdir=c:/Users/mario/Documents/GitHub/Proyectos-Python/.conda/Library/lib
+sharedlibdir=c:/Users/mario/Documents/GitHub/Proyectos-Python/.conda/Library/lib
+includedir=c:/Users/mario/Documents/GitHub/Proyectos-Python/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

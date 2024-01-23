@@ -1,4 +1,4 @@
-import qrcode
+import pyshorteners
 import streamlit as st
 
 filename = "qr_codes/qr_code.png"
